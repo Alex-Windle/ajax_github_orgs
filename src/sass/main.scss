@@ -4,21 +4,22 @@ $background: #F0F0F0;
 $block-border: #DDDDDD;
 
 .app {
-border: 1px solid gray;
+border: 1px solid $block-border;
 width: 700px;
 	.block {
 	border: 1px solid $block-border;
+	border-radius: 4px;
 	background-color: $background;
-	margin: 5px;
+	margin: 8px;
 	display: flex;
 	flex-direction: row;
 	line-height: 80px;
 	img {
-	border: 1px solid pink;
+	// border: 1px solid pink;
 	}//img
 	li {
 	list-style: none;
-	border: 1px solid red;
+	// border: 1px solid red;
 	font-family: 'Roboto', sans-serif;
 	font-size: 45px;
 	color: $font;
